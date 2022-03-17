@@ -66,6 +66,7 @@ Marginile nu se dubleaza nicaieri. Peste tot in imagine marginile au grosimea de
 
 ### Task 2
 Dupa ce inspectam imaginea formata din datele primite la task 1 observam ca cifrele sunt mirrored. Ce trebuia sa fac aici este sa oglindez imaginea primita.
+
 **Input**: Imaginea de la cerinta anterioara.
 
 **Output**:
@@ -76,6 +77,7 @@ Dupa ce inspectam imaginea formata din datele primite la task 1 observam ca cifr
 Dupa prelucrarile asupra setului de date primit la taskurile anterioare, putem verifica daca board-ul sudoku este completat corect sau nu. Se implica recunoasterea de cifre dintr-o imagine bmp.
 
 **Input**: Imaginea obtinuta ca output la cerinta anterioara.
+
 **Output**: 
 `output_task3.json`
 ```
@@ -87,6 +89,7 @@ Dupa prelucrarile asupra setului de date primit la taskurile anterioare, putem v
 
 ### Task 4
 La acest task voi citi o imagine .bmp cu cifre lipsa si voi completa spatiile goale cu cifrele potrivite. Cifrele scrise vor avea alta culoare fata de cele din imaginea initiala: magenta (255 0 255).
+
 **Input**:
 
 ![input_task4](https://i.imgur.com/tuUjVtb.jpg)
@@ -98,17 +101,18 @@ La acest task voi citi o imagine .bmp cu cifre lipsa si voi completa spatiile go
 ### Task bonus
 Aici vom rezolva un joc sudoku de la 0. Voi primi o imagine bmp cu o tabla sudoku necompletata, va trebui sa rezolv jocul folosind un algoritm de rezolvare sudoku. 
 Cifrele lipsa vor fi completata cu magenta. In cazul in care jocul nu poate fi completat va trebui sa suprascriem fiecare cifra din imagine cu un X, scirs cu rosu (255 0 0).
+
 **Input**:
 
-![input_task_bonus](https://i.imgur.com/DlhramW.png)
-
-**Output input rezolvabil**:
-
-![output_bonus_rezolvabil](https://i.imgur.com/fK1LPN1.png)
-
-**Output input nerezolvabil**:
-
-![output_bonus_nerezolvabil](https://i.imgur.com/DyqGPEj.png)
+ ![input_task_bonus](https://i.imgur.com/DlhramW.png)
+ 
+ **Output input rezolvabil**:
+ 
+ ![output_bonus_rezolvabil](https://i.imgur.com/fK1LPN1.png)
+ 
+ **Output input nerezolvabil**:
+ 
+ ![output_bonus_nerezolvabil](https://i.imgur.com/DyqGPEj.png)
 
 ### Restrictii si precizari
 -   Fisierele de intrare vor fi primite ca argumente in linia de comanda, iar fisierele de iesire pentru fiecare task vor fi denumite in felul urmator “output_<task1/2/3/4/>/bonus_board?.<json/bmp>”, unde ”?” reprezinta numarul boardului primit ca intrare.
